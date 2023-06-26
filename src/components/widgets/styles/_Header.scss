@@ -1,0 +1,21 @@
+.Header{
+  @apply bg-purple py-12 text-base text-white;
+  padding-left: 160px;
+  padding-right: 92px;
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a{
+      text-decoration: underline;
+    }
+  }
+}
+
+// <link rel="preconnect" href="https://fonts.googleapis.com">
+// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+// <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+// font-family: 'Montserrat', sans-serif;

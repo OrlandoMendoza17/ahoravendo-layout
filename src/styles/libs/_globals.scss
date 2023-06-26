@@ -1,0 +1,71 @@
+
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+*{
+  @apply text-base;
+}
+
+html{
+  font-size: 62.5% !important;
+  scroll-behavior: smooth;
+  font-family: Montserrat, "sans-serif";
+  
+  body {
+    @apply bg-white;
+    // color: #ffffff00;
+  }
+}
+
+
+/* 
+  Design 1920px x 1058px
+
+  HTML TAG Font Size: 62.5%; ===>>>> 1rem = 10px;
+
+  font-weight: 700; -> Bold
+  font-weight: 600; -> Semibold
+  font-weight: 500; -> Medium
+  font-weight: 400; -> Normal
+
+  font-family: Montserrat;
+
+  title
+  
+    font-weight: Bold;
+    font-size: 40px;
+    line-height: 40px;
+  
+  Extra Large text
+  
+    font-size: 24px;
+    line-height: 32px;  
+    font-weight: Normal;
+    
+  Large
+  
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: Medium;
+    
+  Base
+  
+    font-size: 16px;
+    line-height: 19.5px;
+    font-weight: Normal;
+    
+    line-height: 16px; // INPUTS | Input Validation | Input Labels
+    
+  Small
+  
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: Normal;
+    
+*/

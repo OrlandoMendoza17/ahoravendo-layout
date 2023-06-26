@@ -1,0 +1,25 @@
+.AuthenticationLayout {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: calc(100vh - 114px);
+
+  & > .left {
+    padding: 90px;
+    background-image: url("https://i.imgur.com/baQSl3N.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    & > .container{
+      @apply bg-white p-8;
+      border-radius: 30px;
+      height: 100%;
+    }
+  }
+
+  .right {
+    @apply bg-white;
+    padding: 144px 98px 126px;
+  }
+}
